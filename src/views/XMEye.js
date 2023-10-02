@@ -47,6 +47,7 @@ const XMEye = () => {
           justifyContent: "space-between",
           flexDirection: "row",
           width: "85%",
+          
         }}
       >
         <Text style={styles.options}>Register</Text>
