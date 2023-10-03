@@ -12,11 +12,10 @@ const Login2 = () => {
   const [getPassword, setPassword] = useState('')
   const checkLogin = () => {
     if (getUsername === login.username && getPassword === login.password) {
-      // Authentication successful
-      Alert.alert('Login Successful', 'You have successfully logged in.');
+      console.log("Bạn đã đăng nhập thành công!")
     } else {
       // Authentication failed
-      Alert.alert('Login Failed', 'Incorrect username or password. Please try again.');
+      console.log("Đăng nhập thất bại! Tài khoản hoặc mật khẩu không chính xác.")
     }
   }
   return (
