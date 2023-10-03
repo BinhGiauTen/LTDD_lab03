@@ -18,9 +18,9 @@ export default function App() {
     // <Screen4/>
     // <Login/>
     // <Register/>
-    // <Login2/>
+    <Login2/>
     // <XMEye/>
-    <GeneratorPassword/>
+    // <GeneratorPassword/>
   );
 }
 
