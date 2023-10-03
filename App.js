@@ -8,6 +8,7 @@ import Login from './src/views/Login';
 import Register from './src/views/Register';
 import Login2 from './src/views/Login2';
 import XMEye from './src/views/XMEye';
+import GeneratorPassword from './src/views/generatorPassword';
 
 export default function App() {
   return (
@@ -18,7 +19,8 @@ export default function App() {
     // <Login/>
     // <Register/>
     // <Login2/>
-    <XMEye/>
+    // <XMEye/>
+    <GeneratorPassword/>
   );
 }
 
